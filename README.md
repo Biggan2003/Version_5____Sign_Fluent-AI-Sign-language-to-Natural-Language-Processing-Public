@@ -11,6 +11,13 @@
 **Sign-Fluent AI** represents a sophisticated fusion of **Computer Vision (CV)** and **Large Language Models (LLMs)**. Unlike traditional pattern-matching systems, this project implements a high-performance pipeline that decodes spatial hand landmarks into semantic embeddings, which are then processed via Generative AI to produce contextually accurate natural language.
 
 ---
+## 🌐  Vision: Breaking the Silences with Artificial Intelligence
+
+In a world where communication is a fundamental human right, millions of individuals belonging to the hearing and speech-impaired community face an invisible barrier. **Sign-Fluent AI** was born from a singular, powerful ambition: **To ensure that no voice goes unheard.**
+
+MY mission is to democratize communication by providing a real-time, AI-driven bridge between Sign Language and Natural Language. By leveraging the power of Computer Vision and Large Language Models (LLMs), we are transforming complex hand gestures into meaningful conversations—empowering general people to understand, connect, and converse with the speech-impaired community effortlessly.
+
+> *"Technology is at its best when it empowers the marginalized. We aren't just building an app; we are building a world where silence is no longer a barrier to being understood."*
 
 ## 🧠 Core AI/ML Architecture
 
@@ -79,5 +86,7 @@ This system is a proprietary implementation of a **Hybrid CV-LLM Architecture**.
 
 ---
 <p align="center">
-Developed with 🧠 & 💻 by <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">G.M Biggan</a></b><br/>
+  Architected with 🧠 & 💻 by <b><a href="https://www.linkedin.com/in/g-m-biggan-60032b2b1/">G.M Biggan</a></b>
+  <br/>
+  <i>AI/ML Engineering Practitioner</i>
 </p>

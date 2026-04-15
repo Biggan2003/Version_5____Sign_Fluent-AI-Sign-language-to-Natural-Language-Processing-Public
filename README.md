@@ -8,6 +8,11 @@
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
 </p>
+
+### 🌐 Live Link: https://biggan-sign-fluent-ai.netlify.app/
+---
+<img width="1277" height="941" alt="Screenshot 2026-04-16 010411" src="https://github.com/user-attachments/assets/fa2309fe-3123-4313-81b2-316fe79b5590" />
+
 **✨ Sign-Fluent AI** represents a sophisticated fusion 🧬 of **Computer Vision (CV)** 👁️ and **Large Language Models (LLMs)** 🤖. Unlike traditional pattern-matching systems, this project implements a high-performance pipeline 🏗️ that decodes spatial hand landmarks 📍 into semantic embeddings 🔢, which are then processed via Generative AI 🧠 to produce contextually accurate natural language 🗣️.
 
 ---

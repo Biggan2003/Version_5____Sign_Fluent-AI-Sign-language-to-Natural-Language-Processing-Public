@@ -8,55 +8,57 @@
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
 </p>
-**Sign-Fluent AI** represents a sophisticated fusion of **Computer Vision (CV)** and **Large Language Models (LLMs)**. Unlike traditional pattern-matching systems, this project implements a high-performance pipeline that decodes spatial hand landmarks into semantic embeddings, which are then processed via Generative AI to produce contextually accurate natural language.
-
----
-## 🌐  Vision: Breaking the Silences with Artificial Intelligence
-
-In a world where communication is a fundamental human right, millions of individuals belonging to the hearing and speech-impaired community face an invisible barrier. **Sign-Fluent AI** was born from a singular, powerful ambition: **To ensure that no voice goes unheard.**
-
-MY mission is to democratize communication by providing a real-time, AI-driven bridge between Sign Language and Natural Language. By leveraging the power of Computer Vision and Large Language Models (LLMs), we are transforming complex hand gestures into meaningful conversations—empowering general people to understand, connect, and converse with the speech-impaired community effortlessly.
-
-> *"Technology is at its best when it empowers the marginalized. We aren't just building an app; we are building a world where silence is no longer a barrier to being understood."*
-
-## 🧠 Core AI/ML Architecture
-
-### 1. Spatial Feature Extraction (Computer Vision Layer)
-- **Framework:** MediaPipe Hands (Multi-hand tracking).
-- **Process:** Utilizes a **Single-shot Gesture Detection** model to extract 21 precise 3D hand landmarks.
-- **Optimization:** Implements real-time coordinate normalization to ensure consistent detection regardless of camera distance or orientation.
-
-### 2. Neural Contextual Translation (LLM Layer)
-- **Model:** Google Gemini Pro (Generative Vision-Language Model).
-- **Pipeline:** Raw gesture sequences are fed into a customized prompt engineering layer that handles:
-  - **Temporal Coherence:** Bridging individual signs into fluid sentences.
-  - **Contextual Refinement:** Using Zero-shot learning to interpret ambiguous gestures based on surrounding intent.
-
-### 3. Real-Time Inference Optimization
-- Engineered for low-latency inference by offloading the heavy geometric calculations to the client-side GPU via WebGL, while keeping the NLP reasoning in a secure cloud-based inference stream.
+**✨ Sign-Fluent AI** represents a sophisticated fusion 🧬 of **Computer Vision (CV)** 👁️ and **Large Language Models (LLMs)** 🤖. Unlike traditional pattern-matching systems, this project implements a high-performance pipeline 🏗️ that decodes spatial hand landmarks 📍 into semantic embeddings 🔢, which are then processed via Generative AI 🧠 to produce contextually accurate natural language 🗣️.
 
 ---
 
-## 🚀 Technical Highlights
+## 🌐 Vision: Breaking the Silences with Artificial Intelligence 🌍
 
-- 🔬 **Landmark Geometry:** Analyzes 3D Euclidean distances between fingertips and palm centers for gesture classification.
-- ⚡ **High-Frequency Sampling:** Maintains a constant frame-processing rate to minimize "Input-to-Output" lag.
-- 🏗️ **Robust NLP Pipeline:** Handles noisy input and incomplete signs through advanced prompt-based error correction.
+In a world 🌎 where communication is a fundamental human right ⚖️, millions of individuals belonging to the hearing and speech-impaired community face an invisible barrier 🚧. **Sign-Fluent AI** 🤟 was born from a singular, powerful ambition: **To ensure that no voice goes unheard.** 📢
+
+**MY mission** 🎯 is to democratize communication 🤝 by providing a real-time, AI-driven bridge 🌉 between Sign Language 👐 and Natural Language 📝. By leveraging the power of Computer Vision 📸 and Large Language Models (LLMs) 🤖, we are transforming complex hand gestures into meaningful conversations ✨—empowering general people 👥 to understand, connect, and converse with the speech-impaired community effortlessly 💖.
+
+> *"Technology is at its best when it empowers the marginalized ⚡. We aren't just building an app; we are building a world where silence is no longer a barrier to being understood."* 💡
 
 ---
 
-## 🛠️ Engineering Stack
+## 🧠 Core AI/ML Architecture 🏛️
+
+### 1. Spatial Feature Extraction (Computer Vision Layer) 🔍
+- **Framework:** MediaPipe Hands 🖐️ (Multi-hand tracking 🔄).
+- **Process:** Utilizes a **Single-shot Gesture Detection** model ⚡ to extract 21 precise 3D hand landmarks 📍.
+- **Optimization:** Implements real-time coordinate normalization 📏 to ensure consistent detection regardless of camera distance or orientation 📸.
+
+### 2. Neural Contextual Translation (LLM Layer) 🤖
+- **Model:** Google Gemini Pro 🌌 (Generative Vision-Language Model 🎭).
+- **Pipeline:** Raw gesture sequences are fed into a customized prompt engineering layer 📝 that handles:
+  - **Temporal Coherence:** Bridging individual signs into fluid sentences 🔗.
+  - **Contextual Refinement:** Using Zero-shot learning 🧠 to interpret ambiguous gestures based on surrounding intent 🔮.
+
+### 3. Real-Time Inference Optimization ⚡
+- Engineered for low-latency inference 🚀 by offloading the heavy geometric calculations 📐 to the client-side GPU via WebGL 🎮, while keeping the NLP reasoning in a secure cloud-based inference stream ☁️.
+
+---
+
+## 🚀 Technical Highlights 🛠️
+
+- 🔬 **Landmark Geometry:** Analyzes 3D Euclidean distances 📏 between fingertips and palm centers for gesture classification 📐.
+- ⚡ **High-Frequency Sampling:** Maintains a constant frame-processing rate 🎞️ to minimize "Input-to-Output" lag ⏱️.
+- 🏗️ **Robust NLP Pipeline:** Handles noisy input 🌪️ and incomplete signs 🧩 through advanced prompt-based error correction 🛠️.
+
+---
+
+## 🛠️ Engineering Stack 💻
 
 | Component | Engineering Tool |
 | :--- | :--- |
-| **Inference Engine** | MediaPipe Hand-Landmarker |
-| **NLP & Semantics** | Google Gemini Generative AI (LLM) |
-| **Logic Layer** | TypeScript (Strictly Typed for Data Integrity) |
-| **Environment** | Node.js / Vite (High-speed HMR) |
-| **Visual Interface** | React 18 (Component-based Architecture) |
+| **Inference Engine** | 🖐️ MediaPipe Hand-Landmarker |
+| **NLP & Semantics** | 🧠 Google Gemini Generative AI (LLM) |
+| **Logic Layer** | 🛡️ TypeScript (Strictly Typed for Data Integrity) |
+| **Environment** | ⚡ Node.js / Vite (High-speed HMR 🔥) |
+| **Visual Interface** | 🏗️ React 18 (Component-based Architecture) |
 
 ---
-
 ## 📂 System Architecture Breakdown
 
 - `/src/services/geminiService.ts`: Manages the LLM inference stream and prompt conditioning.

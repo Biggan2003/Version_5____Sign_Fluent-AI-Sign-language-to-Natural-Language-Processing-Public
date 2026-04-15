@@ -1,0 +1,5 @@
+{
+  "name": "SignFluent AI",
+  "description": "A high-end sign language translation dashboard using MediaPipe and Gemini Flash.",
+  "requestFramePermissions": ["camera"]
+}
